@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="odin-logo-and-image">
+            <div class="plant-image">
+                <img src="assets/Foto de Halie West na Unsplash.jpg"
+                    alt="Folhas de plantas por Halie West na Unsplash.com">
+                <p>Photo by <a href="https://unsplash.com/pt-br/@haliewestphoto" target="_blank">Halie West</a> on
+                    <a href="https://unsplash.com" target="_blank">Unsplash</a>
+                </p>
+            </div>
+            <div class="odin-logo">
+                <img src="assets/odin-lined.png" alt="The Odin Project transparent logo">
+                <p>ODIN</p>
+            </div>
+        </div>
+        <div class="form-container">
+            <div class="header">
+                <p>
+                    This is not a real online service! You know you need something like this
+                    in your life to help you realize your deepest dreams.
+                    Sign up <em>now</em> to get started.
+                </p>
+                <p>You <em>know</em> you want to.</p>
+            </div>
+            <div class="odin-form-div">
+                <h3>Let's do this!</h3>
+                <form class="odin-form" action="" method="post">
+
+                    <div class="form-row">
+                        <div class="form-field">
+                            <label for="first-name">First Name</label>
+                            <input type="text" id="first-name" name="first-name">
+                        </div>
+                        <div class="form-field">
+                            <label for="last-name">Last Name</label>
+                            <input type="text" id="last-name" name="last-name">
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-field">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="example@mail.com">
+                        </div>
+                        <div class="form-field">
+                            <label for="phone-number">Phone Number</label>
+                            <input type="text" id="phone-number" name="phone-number" placeholder="(xx) 94002-8922">
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-field">
+                            <label for="password">Password</label>
+                            <input id="password-field" class="password-input" type="password" id="password" name="password">
+                        </div>
+                        <div class="form-field">
+                            <label for="confirm-password">confirm-password</label>
+                            <input id="confirm-password-field" class="password-input" type="password" id="confirm-password" name="confirm-password">
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="footer">
+                <button id="create-account-button" type="button">Create Account</button>
+                <p>Already have an account? <a href="https://google.com.br" target="_blank">Log in</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

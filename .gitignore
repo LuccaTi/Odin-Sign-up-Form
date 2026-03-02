@@ -1,0 +1,10 @@
+# Arquivos de Sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos de configuração de Editores
+.vscode/
+.idea/
+
+# Dependências (caso adicione no futuro)
+node_modules/
